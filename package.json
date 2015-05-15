@@ -1,0 +1,11 @@
+{
+  "engines": {
+    "iojs": ">=1.1.x"
+  },
+  "devDependencies": {
+    "babel-core": "^4.1.1",
+   "babel-loader": "^4.0.0",
+   "react": "^0.13.1",
+   "webpack": "^1.5.3"
+  }
+}
