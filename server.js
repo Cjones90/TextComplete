@@ -28,7 +28,7 @@ var server = {
 				res.writeHead(200, {"Content-Type": contentType});
 				res.end(fs.readFileSync(file));
 			}
-		}).listen(port);
+		}).listen(port, console.log("Server running on port 2000"));
 	}
 
 }

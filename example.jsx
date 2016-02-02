@@ -11,6 +11,7 @@ const Example = React.createClass({
 
   render: function() {
 
+    //Id is optional
     return (
       <div>
         <span>Here's an example using states!  </span>
@@ -20,14 +21,12 @@ const Example = React.createClass({
         />
         <br />
         <span>Here's an example with some random names!  </span>
-        <TextComplete id='example2' divClass='example2' array='names' target='#example'
+        <TextComplete id='example2' divClass='example2' array='names' target='#example3'
               placeHolder="Names" selectListSize='8' ref='myVal2'/>
         <br />
-        <span>Here's an example with the minimum required options! </span>
-        <TextComplete divClass='example3' array='names' selectListSize='8'/>
+        <span>Here's an example with the minimum required configuration! </span>
+        <TextComplete id='example3' divClass='example3' array='names' selectListSize='12'/>
       </div>
-
-
     );
   }
 

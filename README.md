@@ -1,3 +1,10 @@
+#Note: This repo "works" but is outdated. I will be updating it in the coming weeks (Today is 2/2/16)
+* One major flaw is mutating `this.state` directly, this is incorrect and needs to be fixed
+* Another is the `engine` in package.json is several versions behind (along with the others)
+* Webpack config is also outdated (`npm i` should NOT take that long imo).
+* With that said, it still works great :)
+
+
 #What is it
 
 * Textcomplete is an extremely simple and customizable React component for lookahead text input
